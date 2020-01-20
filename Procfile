@@ -1,0 +1,1 @@
+web: gunicorn dne_ws:app
