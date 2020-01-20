@@ -8,7 +8,7 @@ from werkzeug.exceptions import InternalServerError
 
 app = Flask(__name__)
 
-NUM_IMAGES = int(os.environ['NUM_IMAGES_IN_BUCKET']) # 4551
+NUM_IMAGES = int(os.environ['NUM_IMAGES_IN_BUCKET'])
 BUCKET_NAME = os.environ['BUCKET_NAME']
 
 @app.route('/dne')
